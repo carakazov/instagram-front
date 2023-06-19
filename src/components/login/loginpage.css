@@ -1,0 +1,41 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+    margin-top: 350px;
+    row-gap: 20px;
+    font-family: Tahoma, serif;
+}
+
+.login-form-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.login-form-item>input {
+    width: 250px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.login-form-item>button {
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    color: white;
+}
+
+.login-form-item>button:active {
+    background-color: gray;
+}
+
+.error-label {
+    color: red;
+    font-size: 10px;
+}
+
+.login-error {
+  margin-right: 85px;
+}

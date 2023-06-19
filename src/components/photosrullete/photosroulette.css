@@ -1,0 +1,15 @@
+.photo-roulette {
+    display: flex;
+    column-gap: 20px;
+}
+
+.roulette-button {
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-top: 60px;
+}
+
+.roulette-button:active {
+    background-color: gray;
+}

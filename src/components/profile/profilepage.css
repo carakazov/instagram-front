@@ -1,0 +1,38 @@
+.profile-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-family: Tahoma, serif;
+    margin: 50px auto;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid black 1px;
+}
+
+.full-name {
+    font-size: 30px;
+}
+
+.posts-wall {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.create-post-button {
+    background-color: black;
+    color: white;
+}
+
+.create-post-button:active {
+    background-color: gray;
+}
+
+.buttons {
+    display: flex;
+    column-gap: 5px;
+}

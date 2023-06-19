@@ -1,0 +1,26 @@
+.user-card {
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+    row-gap: 5px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.change-button {
+    background-color: black;
+    color: white;
+}
+
+.change-button:active {
+    background-color: gray;
+}
+
+.username {
+    cursor: pointer;
+}

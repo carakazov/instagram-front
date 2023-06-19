@@ -1,0 +1,49 @@
+.dialog {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 50px auto auto;
+    font-family: Tahoma, serif;
+    font-size: 13px;
+}
+
+.messages-block {
+    width: 500px;
+    max-height: 600px;
+    overflow-y: auto;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.button-block {
+    display: flex;
+    column-gap: 100px;
+}
+
+.current-person-message {
+    align-self: flex-end;
+}
+
+.another-person-message {
+    align-self: flex-start;
+}
+
+.message-button {
+    background-color: black;
+    color: white;
+    height: 25px;
+    padding: 2px;
+}
+
+.message-button:active {
+    background-color: gray;
+}
+
+.text-area {
+    padding: 5px;
+}

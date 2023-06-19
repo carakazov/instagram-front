@@ -1,0 +1,23 @@
+.feed-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-family: Tahoma, serif;
+    margin: 20px auto;
+}
+
+.feed-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.feed-header-label {
+    font-size: 25px;
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
